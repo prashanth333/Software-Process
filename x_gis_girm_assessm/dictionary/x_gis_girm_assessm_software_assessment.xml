@@ -161,6 +161,7 @@
         <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_other_device" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Comments" max_length="1000" name="u_portable_media" type="string"/>
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Pre - Approved Software" max_length="32" name="u_pre_approved_software" reference="cmdb_ci_spkg" type="reference"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Test Demo" max_length="20" name="u_price_1" type="price"/>
         <element attributes="edge_encryption_enabled=true" label="Programming Language" max_length="40" name="u_programming_language" type="string"/>
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" default="javascript:gs.getUserID()" dynamic_default_value="90d1921e5f510100a9ad2572f2b477fe" label="Requestor" max_length="32" name="u_requestor" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
         <element attributes="edge_encryption_enabled=true" label="Requestor Follow up" max_length="40" name="u_requestor_s_follow_up" type="boolean"/>
