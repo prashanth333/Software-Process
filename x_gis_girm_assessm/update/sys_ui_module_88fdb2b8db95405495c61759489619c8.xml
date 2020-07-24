@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="">e6f7ed2cdb5d0c1404f51f83059619c6</application>
+        <filter/>
+        <name>Software Assessment Tasks</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_gis_girm_assessm.user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>pgajangi1</sys_created_by>
+        <sys_created_on>2019-11-21 12:02:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>88fdb2b8db95405495c61759489619c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Software Assessment Tasks</sys_name>
+        <sys_package display_value="GIRM Assessments" source="x_gis_girm_assessm">b27bb5eadb41049004f51f830596196d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GIRM Assessments">b27bb5eadb41049004f51f830596196d</sys_scope>
+        <sys_update_name>sys_ui_module_88fdb2b8db95405495c61759489619c8</sys_update_name>
+        <sys_updated_by>pgajangi1</sys_updated_by>
+        <sys_updated_on>2019-11-21 12:02:14</sys_updated_on>
+        <table>x_gis_girm_assessm_software_assessment_task</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>

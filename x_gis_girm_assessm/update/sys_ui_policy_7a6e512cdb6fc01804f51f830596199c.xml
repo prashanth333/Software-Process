@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_gis_girm_assessm_software_assessment">u_available=no^u_pre_approved_softwareISEMPTY^EQ<item display_value="No" endquery="false" field="u_available" goto="false" newquery="false" operator="=" or="false" value="no"/>
+            <item endquery="false" field="u_pre_approved_software" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>120</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+	g_form.setMandatory('u_choice_1', true);
+	g_form.setMandatory('u_comment', false);
+	g_form.setReadOnly('u_choice_1', false);
+	g_form.setReadOnly('u_comment', false);
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+	g_form.setMandatory('u_choice_1', false);
+	g_form.setMandatory('u_comment', false);
+	g_form.setReadOnly('u_choice_1', true);
+	g_form.setReadOnly('u_comment', true);
+}]]></script_true>
+        <set_values/>
+        <short_description>gl if available is NO make upload successful non mandatory</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>smandava1</sys_created_by>
+        <sys_created_on>2020-03-11 06:47:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7a6e512cdb6fc01804f51f830596199c</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>gl if available is NO make upload successful non mandatory</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GIRM Assessments" source="x_gis_girm_assessm">b27bb5eadb41049004f51f830596196d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GIRM Assessments">b27bb5eadb41049004f51f830596196d</sys_scope>
+        <sys_update_name>sys_ui_policy_7a6e512cdb6fc01804f51f830596199c</sys_update_name>
+        <sys_updated_by>pgajangi1</sys_updated_by>
+        <sys_updated_on>2020-05-20 10:34:31</sys_updated_on>
+        <table>x_gis_girm_assessm_software_assessment</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

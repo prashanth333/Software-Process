@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <application display_value="GIRM Assessments">837b352edb41049004f51f830596196c</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Software Assessment Tasks</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_gis_girm_assessm_software_assessment_task</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_gis_girm_assessm.user,x_gis_girm_assessm.software_assessor,service_desk</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>pgajangi1</sys_created_by>
+        <sys_created_on>2019-11-21 12:02:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>08fdb2b8db95405495c61759489619c4</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Software Assessment Tasks</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GIRM Assessments" source="x_gis_girm_assessm">b27bb5eadb41049004f51f830596196d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GIRM Assessments">b27bb5eadb41049004f51f830596196d</sys_scope>
+        <sys_update_name>sys_app_module_08fdb2b8db95405495c61759489619c4</sys_update_name>
+        <sys_updated_by>pgajangi1</sys_updated_by>
+        <sys_updated_on>2020-01-27 10:42:58</sys_updated_on>
+        <timeline_page/>
+        <title>Software Assessment Tasks</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

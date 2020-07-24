@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_gis_girm_assessm_software_assessment">u_pre_approved_softwareISNOTEMPTY^EQ<item endquery="false" field="u_pre_approved_software" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100001</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+    //below fields are from section Software Assessment Questionnaires
+    g_form.setMandatory('u_software_name', true);
+    g_form.setMandatory('u_version', true);
+    g_form.setMandatory('u_operating_system', true);
+    g_form.setMandatory('u_architecture', true);
+    g_form.setMandatory('u_require_licence', true);
+    g_form.setMandatory('u_source', true);
+    g_form.setMandatory('u_internet_connectivity', true);
+    g_form.setMandatory('u_no_of_users', true);
+    g_form.setMandatory('u_business_justification', true);
+    g_form.setMandatory('u_software_website', true);
+    g_form.setMandatory('u_user_belongs_to', true);
+    g_form.setMandatory('u_department', true);
+    g_form.setMandatory('u_31_response', true);
+    //  g_form.setMandatory('u_software_features', false);
+    g_form.setMandatory('u_response_41', true);
+    //g_form.setMandatory('u_software_data_export', false);
+    g_form.setMandatory('u_temporary_permanent', true);
+    g_form.setMandatory('u_response_71', true);
+    //g_form.setMandatory('u_software_running_on', false);
+    g_form.setMandatory('u_response_81', true);
+    //  g_form.setMandatory('u_development', false);
+    g_form.setMandatory('u_response_91', true);
+    //  g_form.setMandatory('u_portable_media', true);
+    g_form.setMandatory('u_host_names', true);
+    g_form.setMandatory('u_response_111', true);
+    //  g_form.setMandatory('u_software_installed', true);
+    g_form.setMandatory('u_response_121', true);
+    //  g_form.setMandatory('u_connect_or_access', true);
+    g_form.setMandatory('u_response_141', true);
+    //   g_form.setMandatory('u_sensitive_confidential', true);
+    g_form.setMandatory('u_job_requirement', true);
+    g_form.setMandatory('u_response_151', true);
+    //  g_form.setMandatory('u_transport_gilead_data', true);
+    g_form.setMandatory('u_response_161', true);
+    // g_form.setMandatory('u_no_gilead', true);
+    g_form.setMandatory('u_access_to_internet', true);
+    g_form.setMandatory('u_non_gilead_external', true);
+    g_form.setMandatory('u_internal_network_only', true);
+    g_form.setMandatory('u_stand_alone', true);
+
+    //section for Installer file details
+    g_form.setMandatory('u_installer_file_url', true);
+    g_form.setMandatory('u_available', true);
+    //g_form.setMandatory('u_choice_1', true);
+
+
+    //Below fileds are from section Installer file fields
+    g_form.setMandatory('u_available', true);
+
+    //hide and unhide sections
+    g_form.setSectionDisplay('assessment_questionnaire', true);
+    g_form.setSectionDisplay('installer_filedetails', true);
+    //	g_form.setSectionDisplay('stakeholders', true);
+
+    // read only for Bussiness justification field
+    g_form.setMandatory('description', false);
+    g_form.setReadOnly('description', true);
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+   
+    for (var i = 0; i < g_form.elements.length; i++) {
+        var el = g_form.elements[i];
+        var fieldName = el.fieldName;
+        g_form.setMandatory(fieldName, false);
+    }
+
+    //hide and unhide sections
+    g_form.setSectionDisplay('assessment_questionnaire', false);
+    g_form.setSectionDisplay('installer_filedetails', false);
+    //g_form.setSectionDisplay('stakeholders', false);
+	
+	// read only for Bussiness justification field
+	g_form.setMandatory('description', true);
+	g_form.setReadOnly('description', false);
+
+
+}]]></script_true>
+        <set_values/>
+        <short_description>gl_Hide the Software Assessment Questionnaires section</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>pgajangi1</sys_created_by>
+        <sys_created_on>2019-12-04 10:17:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b642a541db21c8d404f51f83059619cd</sys_id>
+        <sys_mod_count>49</sys_mod_count>
+        <sys_name>gl_Hide the Software Assessment Questionnaires section</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GIRM Assessments" source="x_gis_girm_assessm">b27bb5eadb41049004f51f830596196d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GIRM Assessments">b27bb5eadb41049004f51f830596196d</sys_scope>
+        <sys_update_name>sys_ui_policy_b642a541db21c8d404f51f83059619cd</sys_update_name>
+        <sys_updated_by>pgajangi1</sys_updated_by>
+        <sys_updated_on>2020-05-20 10:34:31</sys_updated_on>
+        <table>x_gis_girm_assessm_software_assessment</table>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

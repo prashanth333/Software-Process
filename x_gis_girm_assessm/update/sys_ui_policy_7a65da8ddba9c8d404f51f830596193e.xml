@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions/>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>false</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+    //g_form.setReadOnly('u_pre_approved_software', true);
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+    if (g_form.isNewRecord()) {
+        g_form.setReadOnly('u_pre_approved_software', false);
+        g_form.setDisplay('u_pre_approved_software', true);
+        g_form.setSectionDisplay('notes_andcomments', false);
+		g_form.setMandatory("assigned_to", false);
+        g_form.setSectionDisplay('stakeholders', false);
+    } else {
+        if (g_form.getValue('u_pre_approved_software') == '')
+            g_form.setDisplay('u_pre_approved_software', false);
+        if (!g_user.hasRole('x_gis_girm_assessm.software_assessor')) {
+            g_form.setSectionDisplay('notes_andcomments', false);
+            g_form.setSectionDisplay('stakeholders', false);
+        }
+    }
+}]]></script_true>
+        <set_values/>
+        <short_description>gl_Pre-approved is set to read only and visibility to true based on conditions (Also hide the comments section)</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>pgajangi1</sys_created_by>
+        <sys_created_on>2019-12-04 13:59:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7a65da8ddba9c8d404f51f830596193e</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>gl_Pre-approved is set to read only and visibility to true based on conditions (Also hide the comments section)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GIRM Assessments" source="x_gis_girm_assessm">b27bb5eadb41049004f51f830596196d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GIRM Assessments">b27bb5eadb41049004f51f830596196d</sys_scope>
+        <sys_update_name>sys_ui_policy_7a65da8ddba9c8d404f51f830596193e</sys_update_name>
+        <sys_updated_by>pgajangi1</sys_updated_by>
+        <sys_updated_on>2020-05-20 10:34:31</sys_updated_on>
+        <table>x_gis_girm_assessm_software_assessment</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>pgajangi1</sys_created_by>
+        <sys_created_on>2020-01-29 08:05:43</sys_created_on>
+        <sys_id>7fbcd143db66401495c61759489619b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_gis_girm_assessm_software_assessment.description.x_gis_girm_assessm.software_lead_assessor</sys_name>
+        <sys_package display_value="GIRM Assessments" source="x_gis_girm_assessm">b27bb5eadb41049004f51f830596196d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GIRM Assessments">b27bb5eadb41049004f51f830596196d</sys_scope>
+        <sys_security_acl display_value="x_gis_girm_assessm_software_assessment.description">d458fc41db6988d404f51f830596194b</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_7fbcd143db66401495c61759489619b1</sys_update_name>
+        <sys_updated_by>pgajangi1</sys_updated_by>
+        <sys_updated_on>2020-01-29 08:05:43</sys_updated_on>
+        <sys_user_role display_value="x_gis_girm_assessm.software_lead_assessor" name="x_gis_girm_assessm.software_lead_assessor">42d21103dbe2401495c617594896192a</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

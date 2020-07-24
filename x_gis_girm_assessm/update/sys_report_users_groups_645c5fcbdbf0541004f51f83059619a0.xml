@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id/>
+        <report_id display_value="Software Assessment SLA Status">956f972fdb6a481495c6175948961902</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>pgajangi1</sys_created_by>
+        <sys_created_on>2020-05-20 13:41:05</sys_created_on>
+        <sys_id>645c5fcbdbf0541004f51f83059619a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>956f972fdb6a481495c6175948961902</sys_name>
+        <sys_package display_value="GIRM Assessments" source="x_gis_girm_assessm">b27bb5eadb41049004f51f830596196d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GIRM Assessments">b27bb5eadb41049004f51f830596196d</sys_scope>
+        <sys_update_name>sys_report_users_groups_645c5fcbdbf0541004f51f83059619a0</sys_update_name>
+        <sys_updated_by>pgajangi1</sys_updated_by>
+        <sys_updated_on>2020-05-20 13:41:05</sys_updated_on>
+        <user_id display_value="">3747d3051b73ffc4bdae85d7cc4bcbed</user_id>
+    </sys_report_users_groups>
+</record_update>

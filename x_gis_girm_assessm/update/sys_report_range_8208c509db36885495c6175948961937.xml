@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_range">
+    <sys_report_range action="INSERT_OR_UPDATE">
+        <color/>
+        <color_name/>
+        <display>background-color:</display>
+        <element>sys_created_on</element>
+        <label>7 days prior</label>
+        <name>x_gis_girm_assessm_software_assessment</name>
+        <order>100</order>
+        <sys_class_name>sys_report_range</sys_class_name>
+        <sys_created_by>pgajangi1</sys_created_by>
+        <sys_created_on>2020-02-04 11:39:46</sys_created_on>
+        <sys_id>8208c509db36885495c6175948961937</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_gis_girm_assessm_software_assessment</sys_name>
+        <sys_package display_value="GIRM Assessments" source="x_gis_girm_assessm">b27bb5eadb41049004f51f830596196d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GIRM Assessments">b27bb5eadb41049004f51f830596196d</sys_scope>
+        <sys_update_name>sys_report_range_8208c509db36885495c6175948961937</sys_update_name>
+        <sys_updated_by>pgajangi1</sys_updated_by>
+        <sys_updated_on>2020-02-04 11:52:04</sys_updated_on>
+        <upper_value_duration>1970-01-07 23:59:00</upper_value_duration>
+        <upper_value_int/>
+        <value_list/>
+    </sys_report_range>
+    <sys_translated_text action="delete_multiple" query="documentkey=8208c509db36885495c6175948961937"/>
+</record_update>

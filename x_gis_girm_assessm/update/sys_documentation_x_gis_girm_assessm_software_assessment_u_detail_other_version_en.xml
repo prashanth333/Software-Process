@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_detail_other_version" label="Other / Version" language="en" table="x_gis_girm_assessm_software_assessment">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_detail_other_version</element>
+            <help/>
+            <hint/>
+            <label>Other / Version</label>
+            <language>en</language>
+            <name>x_gis_girm_assessm_software_assessment</name>
+            <plural>Other / Versions</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>pgajangi1</sys_created_by>
+            <sys_created_on>2020-05-20 06:33:37</sys_created_on>
+            <sys_id>477af54bdbfcd01004f51f8305961908</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Other / Version</sys_name>
+            <sys_package display_value="GIRM Assessments" source="x_gis_girm_assessm">b27bb5eadb41049004f51f830596196d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GIRM Assessments">b27bb5eadb41049004f51f830596196d</sys_scope>
+            <sys_update_name>sys_documentation_x_gis_girm_assessm_software_assessment_u_detail_other_version_en</sys_update_name>
+            <sys_updated_by>pgajangi1</sys_updated_by>
+            <sys_updated_on>2020-05-20 06:33:37</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

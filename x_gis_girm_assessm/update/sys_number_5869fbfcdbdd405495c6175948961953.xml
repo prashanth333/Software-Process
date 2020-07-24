@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_gis_girm_assessm_software_assessment_task">x_gis_girm_assessm_software_assessment_task</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>SAT</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>pgajangi1</sys_created_by>
+        <sys_created_on>2019-11-21 16:21:56</sys_created_on>
+        <sys_id>5869fbfcdbdd405495c6175948961953</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SAT</sys_name>
+        <sys_package display_value="GIRM Assessments" source="x_gis_girm_assessm">b27bb5eadb41049004f51f830596196d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GIRM Assessments">b27bb5eadb41049004f51f830596196d</sys_scope>
+        <sys_update_name>sys_number_5869fbfcdbdd405495c6175948961953</sys_update_name>
+        <sys_updated_by>pgajangi1</sys_updated_by>
+        <sys_updated_on>2019-11-21 16:21:56</sys_updated_on>
+    </sys_number>
+</record_update>

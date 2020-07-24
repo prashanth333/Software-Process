@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_internal_network_only" table="x_gis_girm_assessm_software_assessment" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_internal_network_only</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Choice 3</label>
+            <language>en</language>
+            <name>x_gis_girm_assessm_software_assessment</name>
+            <sequence>0</sequence>
+            <sys_created_by>pgajangi1</sys_created_by>
+            <sys_created_on>2019-12-05 07:29:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a6c58699dbe58cd404f51f83059619c8</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>pgajangi1</sys_updated_by>
+            <sys_updated_on>2019-12-05 09:32:38</sys_updated_on>
+            <value>Choice 3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_internal_network_only</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>x_gis_girm_assessm_software_assessment</name>
+            <sequence>0</sequence>
+            <sys_created_by>pgajangi1</sys_created_by>
+            <sys_created_on>2019-12-05 07:29:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>66c58699dbe58cd404f51f83059619c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>pgajangi1</sys_updated_by>
+            <sys_updated_on>2019-12-05 07:29:35</sys_updated_on>
+            <value>yes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_internal_network_only</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>x_gis_girm_assessm_software_assessment</name>
+            <sequence>1</sequence>
+            <sys_created_by>pgajangi1</sys_created_by>
+            <sys_created_on>2019-12-05 07:29:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eec58699dbe58cd404f51f83059619c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>pgajangi1</sys_updated_by>
+            <sys_updated_on>2019-12-05 07:29:35</sys_updated_on>
+            <value>no</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_internal_network_only</element>
+            <name>x_gis_girm_assessm_software_assessment</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>pgajangi1</sys_created_by>
+            <sys_created_on>2019-12-05 07:29:35</sys_created_on>
+            <sys_id>69cc8c2bdb8a1010aad3dde74896198c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_internal_network_only</sys_name>
+            <sys_package display_value="GIRM Assessments" source="x_gis_girm_assessm">b27bb5eadb41049004f51f830596196d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GIRM Assessments">b27bb5eadb41049004f51f830596196d</sys_scope>
+            <sys_update_name>sys_choice_x_gis_girm_assessm_software_assessment_u_internal_network_only</sys_update_name>
+            <sys_updated_by>pgajangi1</sys_updated_by>
+            <sys_updated_on>2019-12-05 07:29:35</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

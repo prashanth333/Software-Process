@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Software Details" section_id="5ddbbaa1dba5c41895c61759489619e1" sys_domain="global" table="x_gis_girm_assessm_software_assessment" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_details_name</element>
+            <position>0</position>
+            <sys_created_by>pgajangi1</sys_created_by>
+            <sys_created_on>2020-05-20 06:42:45</sys_created_on>
+            <sys_id>309c3d8fdbfcd01004f51f8305961987</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Software Details" display_value="Software Details" name="x_gis_girm_assessm_software_assessment" sys_domain="global" view="Default view">5ddbbaa1dba5c41895c61759489619e1</sys_ui_section>
+            <sys_updated_by>pgajangi1</sys_updated_by>
+            <sys_updated_on>2020-05-20 06:42:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_details_version</element>
+            <position>1</position>
+            <sys_created_by>pgajangi1</sys_created_by>
+            <sys_created_on>2020-05-20 06:42:45</sys_created_on>
+            <sys_id>b09c3d8fdbfcd01004f51f8305961987</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Software Details" display_value="Software Details" name="x_gis_girm_assessm_software_assessment" sys_domain="global" view="Default view">5ddbbaa1dba5c41895c61759489619e1</sys_ui_section>
+            <sys_updated_by>pgajangi1</sys_updated_by>
+            <sys_updated_on>2020-05-20 06:42:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_details_type</element>
+            <position>2</position>
+            <sys_created_by>pgajangi1</sys_created_by>
+            <sys_created_on>2020-05-20 06:42:45</sys_created_on>
+            <sys_id>349c3d8fdbfcd01004f51f8305961987</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Software Details" display_value="Software Details" name="x_gis_girm_assessm_software_assessment" sys_domain="global" view="Default view">5ddbbaa1dba5c41895c61759489619e1</sys_ui_section>
+            <sys_updated_by>pgajangi1</sys_updated_by>
+            <sys_updated_on>2020-05-20 06:42:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_details_internet_connectivity</element>
+            <position>3</position>
+            <sys_created_by>pgajangi1</sys_created_by>
+            <sys_created_on>2020-05-20 06:42:45</sys_created_on>
+            <sys_id>b49c3d8fdbfcd01004f51f8305961987</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Software Details" display_value="Software Details" name="x_gis_girm_assessm_software_assessment" sys_domain="global" view="Default view">5ddbbaa1dba5c41895c61759489619e1</sys_ui_section>
+            <sys_updated_by>pgajangi1</sys_updated_by>
+            <sys_updated_on>2020-05-20 06:42:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>pgajangi1</sys_created_by>
+            <sys_created_on>2020-05-20 06:42:45</sys_created_on>
+            <sys_id>389c3d8fdbfcd01004f51f8305961987</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Software Details" display_value="Software Details" name="x_gis_girm_assessm_software_assessment" sys_domain="global" view="Default view">5ddbbaa1dba5c41895c61759489619e1</sys_ui_section>
+            <sys_updated_by>pgajangi1</sys_updated_by>
+            <sys_updated_on>2020-05-20 06:42:45</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_details_vendor</element>
+            <position>5</position>
+            <sys_created_by>pgajangi1</sys_created_by>
+            <sys_created_on>2020-05-20 06:42:45</sys_created_on>
+            <sys_id>b89c3d8fdbfcd01004f51f8305961987</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Software Details" display_value="Software Details" name="x_gis_girm_assessm_software_assessment" sys_domain="global" view="Default view">5ddbbaa1dba5c41895c61759489619e1</sys_ui_section>
+            <sys_updated_by>pgajangi1</sys_updated_by>
+            <sys_updated_on>2020-05-20 06:42:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_details_vendor_name</element>
+            <position>6</position>
+            <sys_created_by>pgajangi1</sys_created_by>
+            <sys_created_on>2020-05-20 06:42:45</sys_created_on>
+            <sys_id>3c9c3d8fdbfcd01004f51f8305961987</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Software Details" display_value="Software Details" name="x_gis_girm_assessm_software_assessment" sys_domain="global" view="Default view">5ddbbaa1dba5c41895c61759489619e1</sys_ui_section>
+            <sys_updated_by>pgajangi1</sys_updated_by>
+            <sys_updated_on>2020-05-20 06:42:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_language</element>
+            <position>7</position>
+            <sys_created_by>pgajangi1</sys_created_by>
+            <sys_created_on>2020-05-20 06:42:45</sys_created_on>
+            <sys_id>bc9c3d8fdbfcd01004f51f8305961987</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Software Details" display_value="Software Details" name="x_gis_girm_assessm_software_assessment" sys_domain="global" view="Default view">5ddbbaa1dba5c41895c61759489619e1</sys_ui_section>
+            <sys_updated_by>pgajangi1</sys_updated_by>
+            <sys_updated_on>2020-05-20 06:42:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_details_operating_system</element>
+            <position>8</position>
+            <sys_created_by>pgajangi1</sys_created_by>
+            <sys_created_on>2020-05-20 06:42:45</sys_created_on>
+            <sys_id>309c3d8fdbfcd01004f51f8305961988</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Software Details" display_value="Software Details" name="x_gis_girm_assessm_software_assessment" sys_domain="global" view="Default view">5ddbbaa1dba5c41895c61759489619e1</sys_ui_section>
+            <sys_updated_by>pgajangi1</sys_updated_by>
+            <sys_updated_on>2020-05-20 06:42:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_detail_other_version</element>
+            <position>9</position>
+            <sys_created_by>pgajangi1</sys_created_by>
+            <sys_created_on>2020-05-20 06:42:45</sys_created_on>
+            <sys_id>b09c3d8fdbfcd01004f51f8305961988</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Software Details" display_value="Software Details" name="x_gis_girm_assessm_software_assessment" sys_domain="global" view="Default view">5ddbbaa1dba5c41895c61759489619e1</sys_ui_section>
+            <sys_updated_by>pgajangi1</sys_updated_by>
+            <sys_updated_on>2020-05-20 06:42:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>10</position>
+            <sys_created_by>pgajangi1</sys_created_by>
+            <sys_created_on>2020-05-20 06:42:45</sys_created_on>
+            <sys_id>349c3d8fdbfcd01004f51f8305961988</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Software Details" display_value="Software Details" name="x_gis_girm_assessm_software_assessment" sys_domain="global" view="Default view">5ddbbaa1dba5c41895c61759489619e1</sys_ui_section>
+            <sys_updated_by>pgajangi1</sys_updated_by>
+            <sys_updated_on>2020-05-20 06:42:45</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_details_functional</element>
+            <position>11</position>
+            <sys_created_by>pgajangi1</sys_created_by>
+            <sys_created_on>2020-05-20 06:42:45</sys_created_on>
+            <sys_id>b49c3d8fdbfcd01004f51f8305961988</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Software Details" display_value="Software Details" name="x_gis_girm_assessm_software_assessment" sys_domain="global" view="Default view">5ddbbaa1dba5c41895c61759489619e1</sys_ui_section>
+            <sys_updated_by>pgajangi1</sys_updated_by>
+            <sys_updated_on>2020-05-20 06:42:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Software Details</caption>
+            <header>false</header>
+            <name>x_gis_girm_assessm_software_assessment</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>sbathula</sys_created_by>
+            <sys_created_on>2019-12-06 06:04:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5ddbbaa1dba5c41895c61759489619e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Software Details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="GIRM Assessments" source="x_gis_girm_assessm">b27bb5eadb41049004f51f830596196d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GIRM Assessments">b27bb5eadb41049004f51f830596196d</sys_scope>
+            <sys_update_name>sys_ui_section_5ddbbaa1dba5c41895c61759489619e1</sys_update_name>
+            <sys_updated_by>sbathula</sys_updated_by>
+            <sys_updated_on>2019-12-06 06:04:10</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

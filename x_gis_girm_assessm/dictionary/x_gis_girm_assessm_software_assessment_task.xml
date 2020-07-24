@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="Software Assessment Task" max_length="40" name="x_gis_girm_assessm_software_assessment_task" sizeclass="0" type="collection"/>
+</database>

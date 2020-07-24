@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_tabs">
+    <pa_tabs action="INSERT_OR_UPDATE">
+        <canvas_page display_value="PA Pre-approved Softwar - New Tab">e1314a4fdb30141004f51f83059619d6</canvas_page>
+        <name>Pre-approved Softwar - New Tab</name>
+        <page display_value="">29314a4fdb30141004f51f83059619d4</page>
+        <sys_class_name>pa_tabs</sys_class_name>
+        <sys_created_by>pgajangi1</sys_created_by>
+        <sys_created_on>2020-05-20 07:03:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>69314a4fdb30141004f51f83059619d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pre-approved Softwar - New Tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GIRM Assessments" source="x_gis_girm_assessm">b27bb5eadb41049004f51f830596196d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GIRM Assessments">b27bb5eadb41049004f51f830596196d</sys_scope>
+        <sys_update_name>pa_tabs_69314a4fdb30141004f51f83059619d8</sys_update_name>
+        <sys_updated_by>pgajangi1</sys_updated_by>
+        <sys_updated_on>2020-05-20 07:03:01</sys_updated_on>
+    </pa_tabs>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_response_111" label="11.1 Response" language="en" table="x_gis_girm_assessm_software_assessment">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_response_111</element>
+            <help/>
+            <hint/>
+            <label>11.1 Response</label>
+            <language>en</language>
+            <name>x_gis_girm_assessm_software_assessment</name>
+            <plural>11.1 Responses</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>sbathula</sys_created_by>
+            <sys_created_on>2019-12-05 15:10:54</sys_created_on>
+            <sys_id>986feb51dbe9ccd404f51f830596199e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>11.1 Response</sys_name>
+            <sys_package display_value="GIRM Assessments" source="x_gis_girm_assessm">b27bb5eadb41049004f51f830596196d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GIRM Assessments">b27bb5eadb41049004f51f830596196d</sys_scope>
+            <sys_update_name>sys_documentation_x_gis_girm_assessm_software_assessment_u_response_111_en</sys_update_name>
+            <sys_updated_by>sbathula</sys_updated_by>
+            <sys_updated_on>2019-12-05 15:10:54</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

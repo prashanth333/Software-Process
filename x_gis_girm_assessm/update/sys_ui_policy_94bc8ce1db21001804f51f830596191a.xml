@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_gis_girm_assessm_software_assessment">u_response_81=yes^u_pre_approved_softwareISEMPTY^EQ<item display_value="Yes" endquery="false" field="u_response_81" goto="false" newquery="false" operator="=" or="false" value="yes"/>
+            <item endquery="false" field="u_pre_approved_software" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+	g_form.setMandatory('u_development',false);
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+	g_form.setMandatory('u_development',true);
+}]]></script_true>
+        <set_values/>
+        <short_description>gl 8.1 comment mandatory</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>sbathula</sys_created_by>
+        <sys_created_on>2019-12-05 17:19:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>94bc8ce1db21001804f51f830596191a</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>gl 8.1 comment mandatory</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GIRM Assessments" source="x_gis_girm_assessm">b27bb5eadb41049004f51f830596196d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GIRM Assessments">b27bb5eadb41049004f51f830596196d</sys_scope>
+        <sys_update_name>sys_ui_policy_94bc8ce1db21001804f51f830596191a</sys_update_name>
+        <sys_updated_by>pgajangi1</sys_updated_by>
+        <sys_updated_on>2020-05-20 10:34:32</sys_updated_on>
+        <table>x_gis_girm_assessm_software_assessment</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

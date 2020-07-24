@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>software_assessment</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>pgajangi1</sys_created_by>
+        <sys_created_on>2020-05-08 14:53:40</sys_created_on>
+        <sys_id>cbd9f993dba8d05095c617594896196e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Software Assessment</sys_name>
+        <sys_package display_value="GIRM Assessments" source="x_gis_girm_assessm">b27bb5eadb41049004f51f830596196d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GIRM Assessments">b27bb5eadb41049004f51f830596196d</sys_scope>
+        <sys_update_name>sys_ui_view_cbd9f993dba8d05095c617594896196e</sys_update_name>
+        <sys_updated_by>pgajangi1</sys_updated_by>
+        <sys_updated_on>2020-05-08 14:53:40</sys_updated_on>
+        <title>Software Assessment</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

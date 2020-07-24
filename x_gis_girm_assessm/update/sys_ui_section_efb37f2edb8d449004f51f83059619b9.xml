@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Risk Summary" section_id="efb37f2edb8d449004f51f83059619b9" sys_domain="global" table="x_gis_girm_assessm_software_assessment" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>risk_summary_comments</element>
+            <position>0</position>
+            <sys_created_by>pgajangi1</sys_created_by>
+            <sys_created_on>2019-12-05 07:40:47</sys_created_on>
+            <sys_id>ba588e99db298cd404f51f8305961903</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Risk Summary" display_value="Risk Summary" name="x_gis_girm_assessm_software_assessment" sys_domain="global" view="Default view">efb37f2edb8d449004f51f83059619b9</sys_ui_section>
+            <sys_updated_by>pgajangi1</sys_updated_by>
+            <sys_updated_on>2019-12-05 07:40:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_risk_summary_comments</element>
+            <position>1</position>
+            <sys_created_by>pgajangi1</sys_created_by>
+            <sys_created_on>2019-12-05 07:40:47</sys_created_on>
+            <sys_id>3e588e99db298cd404f51f8305961903</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Risk Summary" display_value="Risk Summary" name="x_gis_girm_assessm_software_assessment" sys_domain="global" view="Default view">efb37f2edb8d449004f51f83059619b9</sys_ui_section>
+            <sys_updated_by>pgajangi1</sys_updated_by>
+            <sys_updated_on>2019-12-05 07:40:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Risk Summary</caption>
+            <header>false</header>
+            <name>x_gis_girm_assessm_software_assessment</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>pgajangi1</sys_created_by>
+            <sys_created_on>2019-11-14 16:10:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>efb37f2edb8d449004f51f83059619b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Risk Summary</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="GIRM Assessments" source="x_gis_girm_assessm">b27bb5eadb41049004f51f830596196d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GIRM Assessments">b27bb5eadb41049004f51f830596196d</sys_scope>
+            <sys_update_name>sys_ui_section_efb37f2edb8d449004f51f83059619b9</sys_update_name>
+            <sys_updated_by>pgajangi1</sys_updated_by>
+            <sys_updated_on>2019-11-14 16:10:59</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

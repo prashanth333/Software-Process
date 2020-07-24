@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="require_licence" table="x_gis_girm_assessm_software_assessment" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>require_licence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes - Per user</label>
+            <language>en</language>
+            <name>x_gis_girm_assessm_software_assessment</name>
+            <sequence>10</sequence>
+            <sys_created_by>pgajangi1</sys_created_by>
+            <sys_created_on>2019-11-28 12:00:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>13704383db99489495c6175948961947</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>pgajangi1</sys_updated_by>
+            <sys_updated_on>2019-12-04 10:18:57</sys_updated_on>
+            <value>per user</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>require_licence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes - Per software</label>
+            <language>en</language>
+            <name>x_gis_girm_assessm_software_assessment</name>
+            <sequence>20</sequence>
+            <sys_created_by>pgajangi1</sys_created_by>
+            <sys_created_on>2019-11-28 14:19:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>53802b83db11889495c617594896196e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>pgajangi1</sys_updated_by>
+            <sys_updated_on>2019-12-04 10:19:03</sys_updated_on>
+            <value>per software</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>require_licence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>x_gis_girm_assessm_software_assessment</name>
+            <sequence>40</sequence>
+            <sys_created_by>pgajangi1</sys_created_by>
+            <sys_created_on>2019-11-28 14:19:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1b802b83db11889495c6175948961970</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>pgajangi1</sys_updated_by>
+            <sys_updated_on>2019-12-04 10:19:10</sys_updated_on>
+            <value>no</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>require_licence</element>
+            <name>x_gis_girm_assessm_software_assessment</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>pgajangi1</sys_created_by>
+            <sys_created_on>2019-11-28 12:00:20</sys_created_on>
+            <sys_id>28a00b83db99489495c617594896196c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>require_licence</sys_name>
+            <sys_package display_value="GIRM Assessments" source="x_gis_girm_assessm">b27bb5eadb41049004f51f830596196d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GIRM Assessments">b27bb5eadb41049004f51f830596196d</sys_scope>
+            <sys_update_name>sys_choice_x_gis_girm_assessm_software_assessment_require_licence</sys_update_name>
+            <sys_updated_by>pgajangi1</sys_updated_by>
+            <sys_updated_on>2019-11-28 12:00:20</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

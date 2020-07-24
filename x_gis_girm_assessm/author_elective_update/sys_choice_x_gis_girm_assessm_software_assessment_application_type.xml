@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="application_type" table="x_gis_girm_assessm_software_assessment" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Windows Desktop Application</label>
+            <language>en</language>
+            <name>x_gis_girm_assessm_software_assessment</name>
+            <sequence>10</sequence>
+            <sys_created_by>pgajangi1</sys_created_by>
+            <sys_created_on>2019-11-14 15:48:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f96eefeedb0d449004f51f8305961981</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>pgajangi1</sys_updated_by>
+            <sys_updated_on>2019-11-14 15:48:39</sys_updated_on>
+            <value>Windows Application</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>MacOS Desktop Application</label>
+            <language>en</language>
+            <name>x_gis_girm_assessm_software_assessment</name>
+            <sequence>20</sequence>
+            <sys_created_by>pgajangi1</sys_created_by>
+            <sys_created_on>2019-11-14 15:49:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fdaea766db0d449004f51f830596196c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>pgajangi1</sys_updated_by>
+            <sys_updated_on>2019-11-14 15:50:35</sys_updated_on>
+            <value>MacOS Application</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>application_type</element>
+            <name>x_gis_girm_assessm_software_assessment</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>pgajangi1</sys_created_by>
+            <sys_created_on>2019-11-14 15:48:39</sys_created_on>
+            <sys_id>68aeefa2db0d449004f51f83059619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>application_type</sys_name>
+            <sys_package display_value="GIRM Assessments" source="x_gis_girm_assessm">b27bb5eadb41049004f51f830596196d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GIRM Assessments">b27bb5eadb41049004f51f830596196d</sys_scope>
+            <sys_update_name>sys_choice_x_gis_girm_assessm_software_assessment_application_type</sys_update_name>
+            <sys_updated_by>pgajangi1</sys_updated_by>
+            <sys_updated_on>2019-11-14 15:48:39</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

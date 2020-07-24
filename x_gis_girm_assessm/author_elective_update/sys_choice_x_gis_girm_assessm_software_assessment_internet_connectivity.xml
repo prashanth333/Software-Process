@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="internet_connectivity" table="x_gis_girm_assessm_software_assessment" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>internet_connectivity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>x_gis_girm_assessm_software_assessment</name>
+            <sequence>10</sequence>
+            <sys_created_by>pgajangi1</sys_created_by>
+            <sys_created_on>2019-12-03 06:29:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8db4ebacdb29c8d495c61759489619e4</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>pgajangi1</sys_updated_by>
+            <sys_updated_on>2019-12-04 07:54:42</sys_updated_on>
+            <value>yes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>internet_connectivity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>x_gis_girm_assessm_software_assessment</name>
+            <sequence>20</sequence>
+            <sys_created_by>pgajangi1</sys_created_by>
+            <sys_created_on>2019-12-03 06:29:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6bb4abacdb29c8d495c617594896198c</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>pgajangi1</sys_updated_by>
+            <sys_updated_on>2019-12-04 07:54:46</sys_updated_on>
+            <value>no</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>internet_connectivity</element>
+            <name>x_gis_girm_assessm_software_assessment</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>pgajangi1</sys_created_by>
+            <sys_created_on>2019-12-03 06:29:00</sys_created_on>
+            <sys_id>63b42fecdb29c8d495c6175948961954</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>internet_connectivity</sys_name>
+            <sys_package display_value="GIRM Assessments" source="x_gis_girm_assessm">b27bb5eadb41049004f51f830596196d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GIRM Assessments">b27bb5eadb41049004f51f830596196d</sys_scope>
+            <sys_update_name>sys_choice_x_gis_girm_assessm_software_assessment_internet_connectivity</sys_update_name>
+            <sys_updated_by>pgajangi1</sys_updated_by>
+            <sys_updated_on>2019-12-03 06:29:00</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

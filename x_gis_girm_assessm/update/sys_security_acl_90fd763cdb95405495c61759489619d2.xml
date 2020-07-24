@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_gis_girm_assessm_software_assessment_task</description>
+        <name>x_gis_girm_assessm_software_assessment_task</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>pgajangi1</sys_created_by>
+        <sys_created_on>2019-11-21 12:02:15</sys_created_on>
+        <sys_id>90fd763cdb95405495c61759489619d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_gis_girm_assessm_software_assessment_task</sys_name>
+        <sys_package display_value="GIRM Assessments" source="x_gis_girm_assessm">b27bb5eadb41049004f51f830596196d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GIRM Assessments">b27bb5eadb41049004f51f830596196d</sys_scope>
+        <sys_update_name>sys_security_acl_90fd763cdb95405495c61759489619d2</sys_update_name>
+        <sys_updated_by>pgajangi1</sys_updated_by>
+        <sys_updated_on>2019-11-21 12:02:15</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

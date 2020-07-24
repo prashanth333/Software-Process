@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_software_installed" label="Comments" language="en" table="x_gis_girm_assessm_software_assessment">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_software_installed</element>
+            <help/>
+            <hint/>
+            <label>Comments</label>
+            <language>en</language>
+            <name>x_gis_girm_assessm_software_assessment</name>
+            <plural>Comments</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>pgajangi1</sys_created_by>
+            <sys_created_on>2019-12-05 07:24:43</sys_created_on>
+            <sys_id>dba40ed5dbe58cd404f51f830596190a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Comments</sys_name>
+            <sys_package display_value="GIRM Assessments" source="x_gis_girm_assessm">b27bb5eadb41049004f51f830596196d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GIRM Assessments">b27bb5eadb41049004f51f830596196d</sys_scope>
+            <sys_update_name>sys_documentation_x_gis_girm_assessm_software_assessment_u_software_installed_en</sys_update_name>
+            <sys_updated_by>sbathula</sys_updated_by>
+            <sys_updated_on>2019-12-05 15:10:57</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

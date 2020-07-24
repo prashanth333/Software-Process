@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Task table schema" source="com.glide.task">fb42b8a5db211010aad3dde7489619b4</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-22 15:09:23</sys_created_on>
+        <sys_id>60bcc42bdb8a1010aad3dde74896190a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="GIRM Assessments" source="x_gis_girm_assessm">b27bb5eadb41049004f51f830596196d</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-22 15:09:23</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

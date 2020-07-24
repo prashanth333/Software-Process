@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions/>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>2500</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+    if (g_form.isNewRecord()) {
+        g_form.setSectionDisplay('stakeholders', false);
+
+    } else if (!g_form.isNewRecord() && g_user.hasRole('x_gis_girm_assessm.software_assessor')) {
+        g_form.setSectionDisplay('stakeholders', true);
+    }
+
+
+}]]></script_true>
+        <set_values/>
+        <short_description>gl.Hide the Stakehodler section</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>pgajangi1</sys_created_by>
+        <sys_created_on>2020-01-14 05:40:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d53b2342dbd2c01095c6175948961910</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>gl.Hide the Stakehodler section</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GIRM Assessments" source="x_gis_girm_assessm">b27bb5eadb41049004f51f830596196d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GIRM Assessments">b27bb5eadb41049004f51f830596196d</sys_scope>
+        <sys_update_name>sys_ui_policy_d53b2342dbd2c01095c6175948961910</sys_update_name>
+        <sys_updated_by>pgajangi1</sys_updated_by>
+        <sys_updated_on>2020-05-20 10:34:31</sys_updated_on>
+        <table>x_gis_girm_assessm_software_assessment</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

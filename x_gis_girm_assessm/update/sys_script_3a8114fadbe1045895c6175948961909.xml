@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_gis_girm_assessm_software_assessment</collection>
+        <condition/>
+        <description>To retrieve data or to enter it manually</description>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>gl.software.assessment.report template</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+	current.u_details_name= current.u_software_name;
+	current.u_details_version = current.u_version; 
+	current.u_details_vendor = current.u_source;
+	current.u_details_vendor_name = current.u_vendor_name;
+	current.u_details_internet_connectivity = current.u_internet_connectivity;
+	current.u_language = current.u_programming_language;
+	current.u_details_operating_system = current.u_operating_system;
+	current.u_detail_other_version = current.u_other;
+	current.u_scope_number = current.u_no_of_users;
+	current.u_scope_department = current.u_department;
+	current.u_requirement = current.u_business_justification;
+	
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>sbathula</sys_created_by>
+        <sys_created_on>2019-12-09 14:55:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3a8114fadbe1045895c6175948961909</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>gl.software.assessment.report template</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GIRM Assessments" source="x_gis_girm_assessm">b27bb5eadb41049004f51f830596196d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GIRM Assessments">b27bb5eadb41049004f51f830596196d</sys_scope>
+        <sys_update_name>sys_script_3a8114fadbe1045895c6175948961909</sys_update_name>
+        <sys_updated_by>pgajangi1</sys_updated_by>
+        <sys_updated_on>2020-05-20 07:30:08</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=3a8114fadbe1045895c6175948961909"/>
+</record_update>

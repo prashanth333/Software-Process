@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_risk_summary_comments" label="Risk Summary Comments" language="en" table="x_gis_girm_assessm_software_assessment">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_risk_summary_comments</element>
+            <help/>
+            <hint/>
+            <label>Risk Summary Comments</label>
+            <language>en</language>
+            <name>x_gis_girm_assessm_software_assessment</name>
+            <plural>Risk Summary Comments</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>pgajangi1</sys_created_by>
+            <sys_created_on>2019-12-05 07:40:43</sys_created_on>
+            <sys_id>b9588a99db298cd404f51f83059619df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Risk Summary Comments</sys_name>
+            <sys_package display_value="GIRM Assessments" source="x_gis_girm_assessm">b27bb5eadb41049004f51f830596196d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GIRM Assessments">b27bb5eadb41049004f51f830596196d</sys_scope>
+            <sys_update_name>sys_documentation_x_gis_girm_assessm_software_assessment_u_risk_summary_comments_en</sys_update_name>
+            <sys_updated_by>pgajangi1</sys_updated_by>
+            <sys_updated_on>2019-12-05 07:40:43</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

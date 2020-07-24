@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="GIRM Assessments">837b352edb41049004f51f830596196c</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>My Assessments</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_gis_girm_assessm_software_assessment</name>
+        <order>40</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_gis_girm_assessm.user,x_gis_girm_assessm.software_assessor,x_gis_girm_assessm.software_lead_assessor</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>rkumar15</sys_created_by>
+        <sys_created_on>2019-12-04 08:45:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>098d8941db6d88d404f51f83059619cf</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>All Software Assessments</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GIRM Assessments" source="x_gis_girm_assessm">b27bb5eadb41049004f51f830596196d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GIRM Assessments">b27bb5eadb41049004f51f830596196d</sys_scope>
+        <sys_update_name>sys_app_module_098d8941db6d88d404f51f83059619cf</sys_update_name>
+        <sys_updated_by>pgajangi1</sys_updated_by>
+        <sys_updated_on>2020-01-29 07:27:55</sys_updated_on>
+        <timeline_page/>
+        <title>All Software Assessments</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

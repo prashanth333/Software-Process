@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition table="x_gis_girm_assessm_software_assessment_task">stateIN200,400^EQ<item display_value="200,400" endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="200,400"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description>Default access control on x_gis_girm_assessm_software_assessment_task</description>
+        <name>x_gis_girm_assessm_software_assessment_task</name>
+        <operation display_value="write">write</operation>
+        <script><![CDATA[if (current.assigned_to == gs.getUserID())
+    answer = true;
+else
+    answer = false;]]></script>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>pgajangi1</sys_created_by>
+        <sys_created_on>2019-11-21 12:02:15</sys_created_on>
+        <sys_id>9cfd763cdb95405495c61759489619da</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_gis_girm_assessm_software_assessment_task</sys_name>
+        <sys_package display_value="GIRM Assessments" source="x_gis_girm_assessm">b27bb5eadb41049004f51f830596196d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GIRM Assessments">b27bb5eadb41049004f51f830596196d</sys_scope>
+        <sys_update_name>sys_security_acl_9cfd763cdb95405495c61759489619da</sys_update_name>
+        <sys_updated_by>rkumar15</sys_updated_by>
+        <sys_updated_on>2019-12-09 10:15:36</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

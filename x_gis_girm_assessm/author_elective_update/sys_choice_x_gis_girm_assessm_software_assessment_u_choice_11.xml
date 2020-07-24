@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_choice_11" table="x_gis_girm_assessm_software_assessment" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_11</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>x_gis_girm_assessm_software_assessment</name>
+            <sequence>0</sequence>
+            <sys_created_by>sbathula</sys_created_by>
+            <sys_created_on>2019-12-06 06:04:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>afdb7ea1dba5c41895c6175948961957</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sbathula</sys_updated_by>
+            <sys_updated_on>2019-12-06 06:04:20</sys_updated_on>
+            <value>yes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_11</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>x_gis_girm_assessm_software_assessment</name>
+            <sequence>1</sequence>
+            <sys_created_by>sbathula</sys_created_by>
+            <sys_created_on>2019-12-06 06:04:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2bdb7ea1dba5c41895c617594896195a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sbathula</sys_updated_by>
+            <sys_updated_on>2019-12-06 06:04:20</sys_updated_on>
+            <value>no</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_choice_11</element>
+            <name>x_gis_girm_assessm_software_assessment</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>sbathula</sys_created_by>
+            <sys_created_on>2019-12-06 06:04:20</sys_created_on>
+            <sys_id>19cc8c2bdb8a1010aad3dde74896191a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_choice_11</sys_name>
+            <sys_package display_value="GIRM Assessments" source="x_gis_girm_assessm">b27bb5eadb41049004f51f830596196d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GIRM Assessments">b27bb5eadb41049004f51f830596196d</sys_scope>
+            <sys_update_name>sys_choice_x_gis_girm_assessm_software_assessment_u_choice_11</sys_update_name>
+            <sys_updated_by>sbathula</sys_updated_by>
+            <sys_updated_on>2019-12-06 06:04:20</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

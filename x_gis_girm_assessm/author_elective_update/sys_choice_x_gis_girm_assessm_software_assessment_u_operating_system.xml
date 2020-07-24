@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_operating_system" table="x_gis_girm_assessm_software_assessment" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_operating_system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Windows XP</label>
+            <language>en</language>
+            <name>x_gis_girm_assessm_software_assessment</name>
+            <sequence>0</sequence>
+            <sys_created_by>pgajangi1</sys_created_by>
+            <sys_created_on>2019-12-05 06:57:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8a5e3d95dba58cd404f51f83059619fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>pgajangi1</sys_updated_by>
+            <sys_updated_on>2019-12-05 06:57:03</sys_updated_on>
+            <value>winxp</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_operating_system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Windows 8</label>
+            <language>en</language>
+            <name>x_gis_girm_assessm_software_assessment</name>
+            <sequence>1</sequence>
+            <sys_created_by>sbathula</sys_created_by>
+            <sys_created_on>2019-12-05 14:30:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6d26eb99db69ccd404f51f8305961936</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sbathula</sys_updated_by>
+            <sys_updated_on>2019-12-05 14:30:35</sys_updated_on>
+            <value>win 8</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_operating_system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Windows 7</label>
+            <language>en</language>
+            <name>x_gis_girm_assessm_software_assessment</name>
+            <sequence>2</sequence>
+            <sys_created_by>pgajangi1</sys_created_by>
+            <sys_created_on>2019-12-05 06:57:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>065e7d95dba58cd404f51f8305961901</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>sbathula</sys_updated_by>
+            <sys_updated_on>2019-12-05 14:30:35</sys_updated_on>
+            <value>win7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_operating_system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Windows 10</label>
+            <language>en</language>
+            <name>x_gis_girm_assessm_software_assessment</name>
+            <sequence>3</sequence>
+            <sys_created_by>pgajangi1</sys_created_by>
+            <sys_created_on>2019-12-05 06:57:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ca5e7d95dba58cd404f51f8305961903</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>sbathula</sys_updated_by>
+            <sys_updated_on>2019-12-05 14:30:35</sys_updated_on>
+            <value>win10</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_operating_system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mac OS</label>
+            <language>en</language>
+            <name>x_gis_girm_assessm_software_assessment</name>
+            <sequence>4</sequence>
+            <sys_created_by>pgajangi1</sys_created_by>
+            <sys_created_on>2019-12-05 06:57:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>825e7d95dba58cd404f51f8305961906</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>sbathula</sys_updated_by>
+            <sys_updated_on>2019-12-05 14:30:35</sys_updated_on>
+            <value>mac os</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_operating_system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Linux</label>
+            <language>en</language>
+            <name>x_gis_girm_assessm_software_assessment</name>
+            <sequence>5</sequence>
+            <sys_created_by>pgajangi1</sys_created_by>
+            <sys_created_on>2019-12-05 06:57:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4a5e7d95dba58cd404f51f8305961908</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>sbathula</sys_updated_by>
+            <sys_updated_on>2019-12-05 14:30:35</sys_updated_on>
+            <value>linux</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_operating_system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Windows Server</label>
+            <language>en</language>
+            <name>x_gis_girm_assessm_software_assessment</name>
+            <sequence>6</sequence>
+            <sys_created_by>pgajangi1</sys_created_by>
+            <sys_created_on>2019-12-05 06:57:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>025e7d95dba58cd404f51f830596190b</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>sbathula</sys_updated_by>
+            <sys_updated_on>2019-12-05 14:30:35</sys_updated_on>
+            <value>winserver</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_operating_system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Linux Server</label>
+            <language>en</language>
+            <name>x_gis_girm_assessm_software_assessment</name>
+            <sequence>7</sequence>
+            <sys_created_by>pgajangi1</sys_created_by>
+            <sys_created_on>2019-12-05 06:57:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c65e7d95dba58cd404f51f830596190d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>sbathula</sys_updated_by>
+            <sys_updated_on>2019-12-05 14:30:35</sys_updated_on>
+            <value>lserver</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_operating_system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_gis_girm_assessm_software_assessment</name>
+            <sequence>8</sequence>
+            <sys_created_by>pgajangi1</sys_created_by>
+            <sys_created_on>2019-12-05 06:57:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8e5e7d95dba58cd404f51f830596190f</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>sbathula</sys_updated_by>
+            <sys_updated_on>2019-12-05 14:30:35</sys_updated_on>
+            <value>other</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_operating_system</element>
+            <name>x_gis_girm_assessm_software_assessment</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>pgajangi1</sys_created_by>
+            <sys_created_on>2019-12-05 06:57:03</sys_created_on>
+            <sys_id>61cc8c2bdb8a1010aad3dde7489619b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_operating_system</sys_name>
+            <sys_package display_value="GIRM Assessments" source="x_gis_girm_assessm">b27bb5eadb41049004f51f830596196d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GIRM Assessments">b27bb5eadb41049004f51f830596196d</sys_scope>
+            <sys_update_name>sys_choice_x_gis_girm_assessm_software_assessment_u_operating_system</sys_update_name>
+            <sys_updated_by>pgajangi1</sys_updated_by>
+            <sys_updated_on>2019-12-05 06:57:03</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

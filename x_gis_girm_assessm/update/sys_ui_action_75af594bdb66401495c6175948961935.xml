@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>software_not_approved</action_name>
+        <active>true</active>
+        <client>true</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition>!current.isNewRecord() &amp;&amp; (current.u_approver==gs.getUserID() ) &amp;&amp; (current.active== true) &amp;&amp; (current.state != '990') &amp;&amp;(current.state != '980') &amp;&amp;(current.state != '500') &amp;&amp;(current.state != '890')</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <hint>Move to Not Approved</hint>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Not Approved</name>
+        <onclick>mandateWorkNotes()</onclick>
+        <order>100</order>
+        <script><![CDATA[if (typeof window == 'undefined'){
+    new global.Workflow().cancel(current);
+new global.WorkflowApprovalUtils().cancelAll(current);
+setState();
+}
+
+function setState() {
+    current.state = 890;
+    current.active = 'false';
+    current.u_sparc_active = 'false';
+    current.update();
+    action.setRedirectURL(current);
+}
+
+function mandateWorkNotes() {
+    //Find the tab index where work_notes resides.
+    var tab = g_tabs2Sections.findTabIndex('work_notes');
+    // Bring the tab with the work notes in focus
+    g_tabs2Sections.setActive(tab);
+    g_form.setMandatory('work_notes', true);
+    gsftSubmit(null, g_form.getFormElement(), 'software_not_approved'); //MUST call the 'Action name' set in this UI Action
+}]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>pgajangi1</sys_created_by>
+        <sys_created_on>2020-01-29 08:17:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>75af594bdb66401495c6175948961935</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Not Approved</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GIRM Assessments" source="x_gis_girm_assessm">b27bb5eadb41049004f51f830596196d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GIRM Assessments">b27bb5eadb41049004f51f830596196d</sys_scope>
+        <sys_update_name>sys_ui_action_75af594bdb66401495c6175948961935</sys_update_name>
+        <sys_updated_by>pgajangi1</sys_updated_by>
+        <sys_updated_on>2020-01-30 10:06:35</sys_updated_on>
+        <table>x_gis_girm_assessm_software_assessment</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

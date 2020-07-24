@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_scope_system_info" label="System Info" language="en" table="x_gis_girm_assessm_software_assessment">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_scope_system_info</element>
+            <help/>
+            <hint/>
+            <label>System Info</label>
+            <language>en</language>
+            <name>x_gis_girm_assessm_software_assessment</name>
+            <plural>System Infos</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>sbathula</sys_created_by>
+            <sys_created_on>2019-12-09 07:08:21</sys_created_on>
+            <sys_id>3247a2eadba50c1804f51f830596194c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>System Info</sys_name>
+            <sys_package display_value="GIRM Assessments" source="x_gis_girm_assessm">b27bb5eadb41049004f51f830596196d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="GIRM Assessments">b27bb5eadb41049004f51f830596196d</sys_scope>
+            <sys_update_name>sys_documentation_x_gis_girm_assessm_software_assessment_u_scope_system_info_en</sys_update_name>
+            <sys_updated_by>sbathula</sys_updated_by>
+            <sys_updated_on>2019-12-09 07:08:21</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
